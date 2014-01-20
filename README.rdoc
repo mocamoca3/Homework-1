@@ -13,3 +13,5 @@ I was repetitively launching new apps by running the <heroku create --stack ceda
 I could not launch the heroku app on my second attempt. I fixed the issue by adding these lines to the bottom of my Gemfile: 
 gem 'rails_12factor'
 ruby '2.1.0'
+
+I was not entirely sure where to put my name, but I put it in the app/views/home/index.html.erb document. 
