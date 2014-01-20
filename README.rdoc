@@ -1,28 +1,15 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Monica Laskos
 
-Things you may want to cover:
+link to Heroku: 
 
-* Ruby version
+http://fast-waters-8420.herokuapp.com/
 
-* System dependencies
+Issues Encountered: 
 
-* Configuration
+I was repetitively launching new apps by running the <heroku create --stack cedar> too many times. Once I realized that I was doing that, I deleted everything and started new, only running that command once. 
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+I could not launch the heroku app on my second attempt. I fixed the issue by adding these lines to the bottom of my Gemfile: 
+gem 'rails_12factor'
+ruby '2.1.0'
